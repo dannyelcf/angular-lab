@@ -6,3 +6,5 @@ services:
     working_dir: /tmp/docker
     volumes:
        - ${PWD}:/tmp/docker
+    ports:
+       - '4200:4200'
