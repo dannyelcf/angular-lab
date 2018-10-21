@@ -1,4 +1,4 @@
-FROM node:8.12.0-alpine
+FROM node:alpine
 
 RUN npm install -g @angular/cli && \
     npm install -g typescript && \ 
