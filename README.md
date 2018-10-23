@@ -7,11 +7,11 @@ This repository contains my studies and experiments of Angular development.
 To manage my development environment I use [docker-compose](https://docs.docker.com/compose).
 See the my `Dockerfile` and `docker-compose.yml` in `.docker` folder.
 
-To initialize the development environment run `start-dev-env.sh` shell script into 
+To initialize the development environment run `launch-dev-env.sh` shell script into 
 `angular-lab` folder.
 
 ```
-~/.../angular-lab$ sh start-dev-env.sh
+~/.../angular-lab$ sh launch-dev-env.sh
 ```
 
 That will create a docker container with a volume mapping the current folder 
