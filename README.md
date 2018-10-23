@@ -18,5 +18,5 @@ That will create a docker container with a volume mapping the current folder
 (`~/.../angular-lab`) to `/angular-lab` folder in the container.
 
 ``` sh
-/angular-lab \# 
+/angular-lab # 
 ```
