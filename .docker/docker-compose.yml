@@ -2,9 +2,9 @@ version: '3'
 services:
   angular:
     build: .
-    image: dannyelcf/angular
-    working_dir: /tmp/docker
+    image: dannyelcf/angular-lab
+    working_dir: /angular-lab
     volumes:
-       - ${PWD}:/tmp/docker
+       - ${PWD}:/angular-lab
     ports:
        - '4200:4200'
