@@ -25,9 +25,9 @@
         <p *ngIf="displayed">Any content</p>
         <p *ngIf="!displayed"><br/></p>
         <p 
-          *ngFor="let log of logClicks"
-          [ngStyle]="{backgroundColor: numberClicks > 4 ? 'blue' : ''}"
-          [ngClass]="{item: numberClicks > 4}">{{ log }}</p>
+          *ngFor="let log of logClicks; let idx = index;"
+          [ngStyle]="{backgroundColor: idx > 4 ? 'blue' : 'white'}"
+          [ngClass]="{item: idx > 4}">{{ log }}</p>
       </div>
   </div>
 </div>
